@@ -95,6 +95,6 @@ This phase helped me understand:
 
 It marked my transition from basic image processing into practical Computer Vision model development.
 
-# Sample Output
+# Colab Training
 
 ![OpenCV Output](yaml_train_vs2.png)
