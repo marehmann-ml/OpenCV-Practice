@@ -54,4 +54,4 @@ These preprocessing steps were later used for custom YOLOv8 training.
 
 # Sample Output
 
-![OpenCV Output](pre.png)
+![OpenCV Output](preprocess_result.png)
