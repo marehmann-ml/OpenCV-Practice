@@ -1,0 +1,71 @@
+# 1) Display Window CodeThis code creates a solid black window, displays it on your screen, and waits for you to press the 'q' key to close it.
+import cv2
+import numpy as np
+
+# Create a black image: 600 rows (height), 800 columns (width), 3 color channels (BGR)
+window_image = np.zeros((600, 800, 3), dtype=np.uint8)
+
+# Main Loop
+while True:
+    # Display the image in a window named "OpenCV Window"
+    cv2.imshow("OpenCV Window", window_image)
+    
+    # Wait for 1 millisecond and check if 'q' key is pressed
+    if cv2.waitKey(1) & 0xFF == ord('q'):
+        break
+
+# Clean up and close all windows
+cv2.destroyAllWindows()
+#-------------------------------------------------------------------------------------------------------
+# 2) Pixel/Frame ExperimentsOpenCV uses NumPy arrays for images. 
+# Coordinates are formatted as image[y, x] (Row, Column) and the color order is BGR (Blue, Green, Red).
+
+# A. Single Pixel ManipulationModify specific pixels directly 
+# using their grid coordinates.
+import cv2
+import numpy as np
+
+# Create a 400x400 black image
+img = np.zeros((400, 400, 3), dtype=np.uint8)
+
+# Change a single pixel at center (y=200, x=200) to Pure Red (B=0, G=0, R=255)
+img[200, 200] = [0, 0, 255]
+
+# Change a 50x50 block of pixels to Bright Green
+img[100:150, 100:150] = [0, 255, 0]
+
+cv2.imshow("Pixel Experiment", img)
+cv2.waitKey(0) # Wait indefinitely for any key press
+cv2.destroyAllWindows()
+#-------------------------------------------------------------------------------------------------------
+#B. Live Frame Manipulation (Webcam)Capture live frames from your webcam, 
+# manipulate the pixels of every frame in real-time, and show the result.
+import cv2
+
+# Open default webcam (0)
+cap = cv2.VideoCapture(0)
+
+while True:
+    # Capture frame-by-frame
+    ret, frame = cap.read()
+    if not ret:
+        break
+
+    # Experiment 1: Invert the colors of the frame
+    inverted_frame = 255 - frame
+
+    # Experiment 2: Draw a blue rectangle on the live frame
+    # Syntax: cv2.rectangle(img, start_point, end_point, color_bgr, thickness)
+    cv2.rectangle(frame, (100, 100), (300, 300), (255, 0, 0), 3)
+
+    # Display the live results
+    cv2.imshow("Live Video (Original + Rect)", frame)
+    cv2.imshow("Live Video (Inverted)", inverted_frame)
+
+    # Press 'q' to exit
+    if cv2.waitKey(1) & 0xFF == ord('q'):
+        break
+
+# Release the camera hardware and close windows
+cap.release()
+cv2.destroyAllWindows()
