@@ -1,0 +1,24 @@
+# CONFIGURATION FILE = YAML FILE GPS/MAP FOR AI MODEL
+
+# Path to your project data human directory
+path: D:/VSCode/OpenCV/data/yolo_dataset
+
+# Sub-folders for training (we'll use the same for now)
+train: images
+val: images
+
+# Number of classes
+nc: 1
+
+# Class names
+names: ['Human']
+
+
+# What does this file do? (Brief Summary)
+# path: Tells YOLO the "Home" directory of your dataset.
+
+# train/val: Tells the AI which folders to "study" (train) and which to "test" itself on (val). Since we have a small set of 328 images, we are using the same folder for both to get started.
+
+# nc: Number of Classes. Since we combined everything into "Human," it is 1.
+
+# names: The label that will appear on the boxes during detection.
