@@ -53,3 +53,7 @@ This phase helped me understand:
 - Workspace Cleanliness: Managed paths cleanly using strict local project path mappings.
 
 It also prepared me for custom dataset training in later stages.
+
+# Sample Output
+
+![OpenCV Output](cv2.1_results.png)
