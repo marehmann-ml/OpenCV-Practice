@@ -97,4 +97,4 @@ It marked my transition from basic image processing into practical Computer Visi
 
 # Sample Output
 
-![OpenCV Output](yaml&train(vs2).png)
+![OpenCV Output](yaml_train_vs2.png)
