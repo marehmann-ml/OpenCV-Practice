@@ -50,5 +50,6 @@ This phase helped me understand:
 - how detections are returned by the model
 - object localization basics
 - video processing workflows using OpenCV
+- Workspace Cleanliness: Managed paths cleanly using strict local project path mappings.
 
 It also prepared me for custom dataset training in later stages.
