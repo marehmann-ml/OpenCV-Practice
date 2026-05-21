@@ -60,3 +60,13 @@ This stage helped me understand:
 - coordinate-based image operations
 
 These concepts later helped during YOLO detection and bounding box workflows.
+
+---
+
+# Sample Output
+
+![OpenCV Output](---
+
+# Sample Output
+
+![OpenCV Output](tool_cv_results.jpg))
