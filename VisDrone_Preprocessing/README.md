@@ -51,3 +51,7 @@ This phase helped me understand:
 - structured AI dataset preparation
 
 These preprocessing steps were later used for custom YOLOv8 training.
+
+# Sample Output
+
+![OpenCV Output](pre.png)
