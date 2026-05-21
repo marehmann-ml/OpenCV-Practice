@@ -69,4 +69,4 @@ These concepts later helped during YOLO detection and bounding box workflows.
 
 # Sample Output
 
-![OpenCV Output](tool_cv_results.jpg))
+![tool cv results](tool_cv_results.jpg))
