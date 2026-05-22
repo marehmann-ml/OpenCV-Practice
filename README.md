@@ -85,7 +85,7 @@ This repository mainly focuses on:
 
 ---
 
-# Author
+# By,
 
 **A Rehman Naseer**  
 ML Intern | Computer Vision | Image Processing
