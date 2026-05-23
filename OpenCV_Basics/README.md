@@ -6,6 +6,7 @@ The focus was on understanding how images and videos are handled internally befo
 
 ---
 
+
 # Topics Practiced
 
 - Reading and writing images
