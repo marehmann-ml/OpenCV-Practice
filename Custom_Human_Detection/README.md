@@ -49,7 +49,7 @@ Common challenges noticed:
 
 ---
 
-# Sample Training Snippet
+# Training & YAML snippet
 
 ```python
 from ultralytics import YOLO
