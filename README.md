@@ -43,6 +43,7 @@ The work was carried out during my ML Internship while transitioning from tradit
 - Google Colab T4 GPU workflow
 - mAP evaluation
 - Loss monitoring
+- Metric evaluation
 
 ---
 
