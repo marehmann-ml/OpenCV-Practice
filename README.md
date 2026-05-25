@@ -66,7 +66,7 @@ OpenCV-Practice/
 
 - Python
 - OpenCV
-- Ultralytics YOLOv8
+- Ultralytics YOLOv8n
 - NumPy
 - Google Colab
 - VS Code
