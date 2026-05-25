@@ -25,7 +25,7 @@ The focus was on understanding the complete training pipeline rather than only r
 
 # Hardware Workflow
 
-Initial testing was performed locally on:
+Initial single folder testing was performed locally on:
 - Intel i7 11th Gen system
 - 4GB GPU
 
